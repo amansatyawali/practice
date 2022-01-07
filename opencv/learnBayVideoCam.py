@@ -7,7 +7,7 @@ cap = cv2.VideoCapture(0)
 ret = True
 while cap.isOpened() :
   ret, frame = cap.read()
-  # print(frame.shape)
+  print(frame.shape)
   frame = frame[ : , : : -1, :]
   frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
   sobelY = cv2.Sobel(frame, cv2.CV_64F, 0, 1, ksize = 3)
