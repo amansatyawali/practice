@@ -1,6 +1,0 @@
---2022-01-06 12:27:08--  https://storage.googleapis.com/kagglesdsdata/competitions/3362/31148/sampleSubmission.csv?GoogleAccessId=web-data@kaggle-161607.iam.gserviceaccount.com
-Resolving storage.googleapis.com (storage.googleapis.com)... 142.250.194.80, 142.250.194.112, 142.250.194.144, ...
-Connecting to storage.googleapis.com (storage.googleapis.com)|142.250.194.80|:443... connected.
-HTTP request sent, awaiting response... 403 Forbidden
-2022-01-06 12:27:08 ERROR 403: Forbidden.
-
