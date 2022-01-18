@@ -17,7 +17,7 @@ RESIZE_DIM = (RESIZE_WIDTH, RESIZE_HEIGHT)
 
 trainNames = os.listdir(TRAIN_DIR_RAW)
 
-fileName = trainNames[12]
+fileName = trainNames[1]
 filePath = TRAIN_DIR_RAW + '/' + fileName
 img = cv2.imread(filePath, 0) #Read the image in black n white
 
