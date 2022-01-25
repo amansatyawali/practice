@@ -43,6 +43,7 @@ sobelX = cv2.Sobel(imgSmooth, cv2.CV_64F, 1, 0, ksize = 3)
 
 imgSmoothEdge = np.sqrt(sobelX ** 2 + sobelY ** 2).astype('uint8')
 imgSmoothEdgeCanny = cv2.Canny(imgSmooth, 30, 100)
+M = cv2.getRotationMatrix2D((200, 200), 45, 1.0)
 imgResizedSmooth = cv2.resize(imgSmoothEdgeCanny, dsize = RESIZE_DIM)
 
 
